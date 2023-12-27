@@ -4,6 +4,8 @@
  */
 package bismillah;
 
+import aplikasi1.home;
+
 /**
  *
  * @author U S E R
@@ -15,6 +17,9 @@ public class Bismillah {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        home k = new home();
+        k.setLocationRelativeTo(null);
+        k.setVisible(true);
     }
     
 }
